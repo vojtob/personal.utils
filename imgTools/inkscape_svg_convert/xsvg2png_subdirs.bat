@@ -1,0 +1,1 @@
+FOR /R %%c in (*.svg) DO call "C:\Program Files\Inkscape\inkscape.com" "%%~fc" -e "%%~fc.png" -w 2400

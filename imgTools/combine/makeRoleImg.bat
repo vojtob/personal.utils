@@ -1,0 +1,1 @@
+magick -gravity NorthEast person.png ( gift-15-300px.png -resize 600x600 ) -composite po.png

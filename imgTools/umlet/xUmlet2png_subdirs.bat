@@ -1,0 +1,1 @@
+FOR /R %%c in (*.uxf) DO call "C:\prg\Umlet\Umlet.exe" -action=convert -format=png -filename="%%~fc"

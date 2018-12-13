@@ -1,0 +1,1 @@
+FOR /R %%c in (*.jpg) DO call "%IM_HOME%\convert.exe" -colorspace Gray "%%~fc" "%%~pc/%%~nc-BW.png"

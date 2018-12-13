@@ -1,0 +1,1 @@
+convert manage.png -fuzz 10% -transparent white manage2.png
