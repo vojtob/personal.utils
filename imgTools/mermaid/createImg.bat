@@ -1,0 +1,1 @@
+FOR /R %%c in (*.mmd) DO call mmdc -i %%~nc.mmd -o %%~nc.png"
