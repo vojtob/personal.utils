@@ -1,0 +1,1 @@
+magick -gravity NorthEast person.png ( newsletter.png -resize 500x500 ) -composite sud_sent.png
