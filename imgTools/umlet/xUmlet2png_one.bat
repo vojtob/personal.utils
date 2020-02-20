@@ -1,1 +1,0 @@
-call "C:\prg\Umlet\Umlet.exe" -action=convert -format=png -filename="%1"

@@ -1,0 +1,1 @@
+magick convert badge.png -fuzz 0% -transparent white badge2.png

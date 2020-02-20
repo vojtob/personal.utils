@@ -1,1 +1,0 @@
-call "C:\Program Files\Inkscape\inkscape.com" "%~1" -e "%~1.png" -w 2400

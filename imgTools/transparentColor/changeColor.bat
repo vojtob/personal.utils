@@ -1,1 +1,0 @@
-convert Tarot01.jpg -fuzz 10% -fill white -opaque black Tarot01_w.jpg

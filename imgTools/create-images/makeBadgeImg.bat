@@ -1,0 +1,1 @@
+magick -gravity Center badge.png ( technology.png -resize 500x500 ) -composite badge_chip.png

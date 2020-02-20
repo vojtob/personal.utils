@@ -1,1 +1,0 @@
-magick -gravity NorthEast person.png ( peciatka.png -resize 600x600 ) -composite notar3.png

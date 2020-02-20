@@ -1,1 +1,0 @@
-call "%IM_HOME%\convert.exe" -density 144 "%~1" "%~1.png"
