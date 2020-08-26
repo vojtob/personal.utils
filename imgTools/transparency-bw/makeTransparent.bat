@@ -1,1 +1,1 @@
-magick convert badge.png -fuzz 0% -transparent white badge2.png
+magick OG-Spring_cut.png -fuzz 90% -transparent white OG-Spring.png
