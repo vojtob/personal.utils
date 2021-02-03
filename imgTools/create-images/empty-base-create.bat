@@ -1,0 +1,1 @@
+magick -size 1204x1204 xc:none -gravity SouthWest ( settings.png -resize 800x800 ) -composite setting-empty.png
