@@ -1,0 +1,1 @@
+magick -gravity SouthWest -size 1204x1204 canvas:transparent ( automatization.png -resize 800x800 ) -composite automatization-empty.png

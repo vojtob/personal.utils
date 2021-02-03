@@ -1,1 +1,1 @@
-magick convert badge.png -fuzz 0% -transparent white badge2.png
+magick people_secure.png -fuzz 90% -transparent white people_secure2.png
