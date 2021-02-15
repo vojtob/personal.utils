@@ -55,3 +55,13 @@ magick -size 1204x1204 canvas:transparent ^
   ( %IPATH%\Database.png -resize 666x800 ) -gravity East -geometry +30+0 -composite ^
   ( %IPATH%\generated\arrow.png -resize 450x450 -flop ) -gravity West -geometry +30+0 -composite ^
   %DPATH%\data_source.png    
+  
+magick -size 1204x1204 canvas:transparent ^
+  ( %IPATH%\Person.png       -resize 500x500 ) -gravity Center                    -composite ^
+  ( %IPATH%\publicsector.png -resize 270x270 ) -gravity Center -geometry -460+0   -composite ^
+  ( %IPATH%\retail2.png      -resize 270x270 ) -gravity Center -geometry -250-354 -composite ^
+  ( %IPATH%\publicsector.png -resize 270x270 ) -gravity Center -geometry +250-354 -composite ^
+  ( %IPATH%\retail2.png      -resize 270x270 ) -gravity Center -geometry +460+0   -composite ^
+  ( %IPATH%\publicsector.png -resize 270x270 ) -gravity Center -geometry +250+400 -composite ^
+  ( %IPATH%\retail2.png      -resize 270x270 ) -gravity Center -geometry -250+400 -composite ^
+  %DPATH%\MyData.png  
