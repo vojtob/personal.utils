@@ -10,3 +10,9 @@ magick -size 1204x1204 canvas:transparent ^
   -gravity SouthWest ( %IPATH%\person.png -resize 900x900 ) -composite ^
   -gravity NorthEast ( %IPATH%\retail2.png -resize 400x400 ) -composite ^
   %DPATH%\role_uradnik_biznis.png
+  
+magick -size 1204x1204 canvas:transparent ^
+  -gravity South ( %IPATH%\person.png -resize 1100x1100 ) -composite ^
+  -gravity NorthEast ( %IPATH%\settings.png -resize 400x400 ) -composite ^
+  %DPATH%\role_spravca.png
+  

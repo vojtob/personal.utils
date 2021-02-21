@@ -29,3 +29,9 @@ magick -size 1204x1204 canvas:transparent ^
   -transparent red ^
   ( %IPATH%\retail2.png -resize 600 ) -gravity SouthEast -composite ^
   %DPATH%\db_retail.png
+
+magick %IPATH%\badgeOK.png ^
+  -fill red -draw "rectangle 302,500,902,916" ^
+  -transparent red ^
+  -gravity Center ( %IPATH%\Database.png -resize 620x620 -geometry +0+80 ) -composite ^
+  %DPATH%\secureDB.png
