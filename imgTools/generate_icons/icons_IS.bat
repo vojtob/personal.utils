@@ -3,11 +3,6 @@ SET DPATH=C:\Projects_src\resources\dxc-icons\generated
 
 magick -size 1204x1204 canvas:transparent ^
   -gravity SouthWest ( %IPATH%\server.png -resize 800x800 ) -composite ^
-  -gravity NorthEast ( %IPATH%\AbstractRandom.png -resize 400x400 ) -composite ^
-  %DPATH%\IS_CSRU.png
-
-magick -size 1204x1204 canvas:transparent ^
-  -gravity SouthWest ( %IPATH%\server.png -resize 800x800 ) -composite ^
   -gravity NorthEast ( %IPATH%\publicsector.png -resize 400x400 ) -composite ^
   %DPATH%\IS_VS.png
 

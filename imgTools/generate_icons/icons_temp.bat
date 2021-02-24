@@ -1,8 +1,8 @@
 SET IPATH=C:\Projects_src\resources\dxc-icons
 SET DPATH=C:\Projects_src\resources\dxc-icons\generated
 
-magick %IPATH%\badgeOK.png ^
-  -fill red -draw "rectangle 302,500,902,916" ^
+magick %IPATH%\DeviceUpdate.png ^
+  -fill red -draw "rectangle 300,250,900,755" ^
   -transparent red ^
-  -gravity Center ( %IPATH%\Database.png -resize 620x620 -geometry +0+80 ) -composite ^
-  %DPATH%\secureDB.png
+  -gravity Center ( %IPATH%\AbstractRandom.png -resize 550x550 ) -composite ^
+  %DPATH%\integration-update.png
