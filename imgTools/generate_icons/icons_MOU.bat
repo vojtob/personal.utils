@@ -47,7 +47,19 @@ magick -size 1204x1204 canvas:transparent ^
   %DPATH%\MyData.png  
 
 magick -size 1204x1204 canvas:transparent ^
+  ( %IPATH%\AbstractRandom.png       -resize 500x500 ) -gravity Center                    -composite ^
+  ( %IPATH%\publicsector.png -resize 270x270 ) -gravity Center -geometry -460+0   -composite ^
+  ( %IPATH%\publicsector.png      -resize 270x270 ) -gravity Center -geometry -250-460 -composite ^
+  ( %IPATH%\publicsector.png -resize 270x270 ) -gravity Center -geometry +250-460 -composite ^
+  ( %IPATH%\publicsector.png      -resize 270x270 ) -gravity Center -geometry +460+0   -composite ^
+  ( %IPATH%\publicsector.png -resize 270x270 ) -gravity Center -geometry +250+460 -composite ^
+  ( %IPATH%\publicsector.png      -resize 270x270 ) -gravity Center -geometry -250+460 -composite ^
+  %DPATH%\CSRU.png
+magick -size 1204x1204 canvas:transparent ^
   -gravity SouthWest ( %IPATH%\server.png -resize 800x800 ) -composite ^
   -gravity NorthEast ( %IPATH%\AbstractRandom.png -resize 400x400 ) -composite ^
   %DPATH%\IS_CSRU.png
 
+magick %IPATH%\LaptopPhone.png ^
+  ( %IPATH%\AbstractRandom.png -resize 450x450 ) -gravity Center -geometry -150+50   -composite ^
+  %DPATH%\OverSi.png  
