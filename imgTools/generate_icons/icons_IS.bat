@@ -12,6 +12,11 @@ magick -size 1204x1204 canvas:transparent ^
   %DPATH%\IS_3.png
   
 magick -size 1204x1204 canvas:transparent ^
+  -gravity SouthWest ( %IPATH%\server.png -resize 800x800 ) -composite ^
+  -gravity NorthEast ( %IPATH%\AbstractRandom.png -resize 400x400 ) -composite ^
+  %DPATH%\IS_integration.png
+
+magick -size 1204x1204 canvas:transparent ^
   ( %IPATH%\Database.png -resize 1100x1100 ) -gravity NorthWest -composite ^
   -fill red -draw "rectangle 654,511,1204,1204" ^
   -transparent red ^
